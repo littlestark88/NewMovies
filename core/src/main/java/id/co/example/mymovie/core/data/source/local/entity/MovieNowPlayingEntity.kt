@@ -1,4 +1,4 @@
-package id.co.example.core.data.source.local.entity
+package id.co.example.mymovie.core.data.source.local.entity
 
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo

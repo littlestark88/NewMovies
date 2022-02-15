@@ -1,8 +1,9 @@
-package id.co.example.core.data.source.local
+package id.co.example.mymovie.core.data.source.local
 
-import id.co.example.core.data.source.local.dao.MovieDao
-import id.co.example.core.data.source.local.entity.MovieNowPlayingEntity
-import id.co.example.core.data.source.local.entity.TvPopularEntity
+
+import id.co.example.mymovie.core.data.source.local.dao.MovieDao
+import id.co.example.mymovie.core.data.source.local.entity.MovieNowPlayingEntity
+import id.co.example.mymovie.core.data.source.local.entity.TvPopularEntity
 import io.reactivex.Flowable
 
 class LocalDataSource(private val movieDao: MovieDao) {

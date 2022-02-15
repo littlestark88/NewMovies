@@ -1,8 +1,8 @@
-package id.co.example.core.data.source
+package id.co.example.mymovie.core.data.source
 
 import android.annotation.SuppressLint
 import android.util.Log
-import id.co.example.core.data.source.remote.response.ApiResponse
+import id.co.example.mymovie.core.data.source.remote.response.ApiResponse
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers

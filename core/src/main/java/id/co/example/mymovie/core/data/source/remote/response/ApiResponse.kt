@@ -1,4 +1,4 @@
-package id.co.example.core.data.source.remote.response
+package id.co.example.mymovie.core.data.source.remote.response
 
 sealed class ApiResponse<out R> {
     data class Success<out T>(val data: T): ApiResponse<T>()

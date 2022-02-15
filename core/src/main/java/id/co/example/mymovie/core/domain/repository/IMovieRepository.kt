@@ -1,8 +1,8 @@
-package id.co.example.core.domain.repository
+package id.co.example.mymovie.core.domain.repository
 
-import id.co.example.core.data.source.Resource
-import id.co.example.core.domain.model.MovieNowPlaying
-import id.co.example.core.domain.model.TvPopular
+import id.co.example.mymovie.core.data.source.Resource
+import id.co.example.mymovie.core.domain.model.MovieNowPlaying
+import id.co.example.mymovie.core.domain.model.TvPopular
 import io.reactivex.Flowable
 
 interface IMovieRepository {

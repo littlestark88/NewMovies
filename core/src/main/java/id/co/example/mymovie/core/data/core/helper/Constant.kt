@@ -1,6 +1,7 @@
-package id.co.example.core.data.core.helper
+package id.co.example.mymovie.core.data.core.helper
 
-import id.co.example.mymovie.R
+
+import id.co.example.mymovie.core.R
 
 object Constant {
     const val BASE_URL = "https://api.themoviedb.org/3/"

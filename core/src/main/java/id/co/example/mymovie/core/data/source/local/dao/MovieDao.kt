@@ -1,8 +1,8 @@
-package id.co.example.core.data.source.local.dao
+package id.co.example.mymovie.core.data.source.local.dao
 
 import androidx.room.*
-import id.co.example.core.data.source.local.entity.MovieNowPlayingEntity
-import id.co.example.core.data.source.local.entity.TvPopularEntity
+import id.co.example.mymovie.core.data.source.local.entity.MovieNowPlayingEntity
+import id.co.example.mymovie.core.data.source.local.entity.TvPopularEntity
 import io.reactivex.Completable
 import io.reactivex.Flowable
 

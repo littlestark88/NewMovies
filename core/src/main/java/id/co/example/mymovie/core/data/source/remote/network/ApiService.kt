@@ -1,7 +1,8 @@
-package id.co.example.core.data.source.remote.network
+package id.co.example.mymovie.core.data.source.remote.network
 
-import id.co.example.core.data.source.remote.response.MovieNowPlayingResponse
-import id.co.example.core.data.source.remote.response.TvPopularResponse
+
+import id.co.example.mymovie.core.data.source.remote.response.MovieNowPlayingResponse
+import id.co.example.mymovie.core.data.source.remote.response.TvPopularResponse
 import io.reactivex.Flowable
 import retrofit2.http.GET
 import retrofit2.http.Path

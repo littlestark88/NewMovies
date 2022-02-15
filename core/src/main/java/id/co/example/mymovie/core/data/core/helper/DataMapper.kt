@@ -1,11 +1,12 @@
-package id.co.example.core.data.core.helper
+package id.co.example.mymovie.core.data.core.helper
 
-import id.co.example.core.data.source.local.entity.MovieNowPlayingEntity
-import id.co.example.core.data.source.local.entity.TvPopularEntity
-import id.co.example.core.data.source.remote.response.MovieNowPlayingItem
-import id.co.example.core.data.source.remote.response.TvPopularItem
-import id.co.example.core.domain.model.MovieNowPlaying
-import id.co.example.core.domain.model.TvPopular
+import id.co.example.mymovie.core.data.source.local.entity.MovieNowPlayingEntity
+import id.co.example.mymovie.core.data.source.local.entity.TvPopularEntity
+import id.co.example.mymovie.core.data.source.remote.response.MovieNowPlayingItem
+import id.co.example.mymovie.core.data.source.remote.response.TvPopularItem
+import id.co.example.mymovie.core.domain.model.MovieNowPlaying
+import id.co.example.mymovie.core.domain.model.TvPopular
+
 
 object DataMapper {
 

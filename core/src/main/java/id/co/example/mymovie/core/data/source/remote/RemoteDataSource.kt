@@ -1,14 +1,14 @@
-package id.co.example.core.data.source.remote
+package id.co.example.mymovie.core.data.source.remote
 
 import android.annotation.SuppressLint
 import android.util.Log
-import id.co.example.core.data.core.helper.Constant.API_KEY
-import id.co.example.core.data.core.helper.Constant.MOVIE
-import id.co.example.core.data.core.helper.Constant.TV
-import id.co.example.core.data.source.remote.network.ApiService
-import id.co.example.core.data.source.remote.response.ApiResponse
-import id.co.example.core.data.source.remote.response.MovieNowPlayingItem
-import id.co.example.core.data.source.remote.response.TvPopularItem
+import id.co.example.mymovie.core.data.core.helper.Constant.API_KEY
+import id.co.example.mymovie.core.data.core.helper.Constant.MOVIE
+import id.co.example.mymovie.core.data.core.helper.Constant.TV
+import id.co.example.mymovie.core.data.source.remote.network.ApiService
+import id.co.example.mymovie.core.data.source.remote.response.ApiResponse
+import id.co.example.mymovie.core.data.source.remote.response.MovieNowPlayingItem
+import id.co.example.mymovie.core.data.source.remote.response.TvPopularItem
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers

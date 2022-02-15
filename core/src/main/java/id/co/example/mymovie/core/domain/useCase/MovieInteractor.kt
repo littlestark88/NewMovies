@@ -1,8 +1,8 @@
-package id.co.example.core.domain.useCase
+package id.co.example.mymovie.core.domain.useCase
 
-import id.co.example.core.domain.model.MovieNowPlaying
-import id.co.example.core.domain.model.TvPopular
-import id.co.example.core.domain.repository.IMovieRepository
+import id.co.example.mymovie.core.domain.model.MovieNowPlaying
+import id.co.example.mymovie.core.domain.model.TvPopular
+import id.co.example.mymovie.core.domain.repository.IMovieRepository
 
 class MovieInteractor(private val movieRepository: IMovieRepository): MovieUseCase {
 

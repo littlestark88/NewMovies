@@ -1,4 +1,4 @@
-package id.co.example.core.data.core.helper
+package id.co.example.mymovie.core.data.core.helper
 
 import android.os.Handler
 import android.os.Looper

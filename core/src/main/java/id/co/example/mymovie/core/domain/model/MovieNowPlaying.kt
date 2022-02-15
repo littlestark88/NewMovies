@@ -1,4 +1,4 @@
-package id.co.example.core.domain.model
+package id.co.example.mymovie.core.domain.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

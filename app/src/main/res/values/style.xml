@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.SelectedCornerRadius" parent="">
+        <item name="cornerSizeBottomLeft">@dimen/dimen_24dp</item>
+        <item name="cornerSizeBottomRight">@dimen/dimen_24dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowRadius">@dimen/dimen_100f</item>
+
+    </style>
+</resources>
